@@ -15,7 +15,7 @@ h1 small, dt {
 }
 
 dl {
-  font-size: 12pt;
+  font-size: 11pt;
   margin-left: 30px;
 }
 
@@ -34,6 +34,46 @@ dt {
 
 .img-polaroid {
   background-color: #A83425;
+}
+
+.btn {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  background-color: #DA981E;
+  background-image: none;
+  border-bottom-color: rgba(0, 0, 0, 0.247059);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-style: outset;
+  border-bottom-width: 2px;
+  border-left-color: rgba(0, 0, 0, 0.0980392);
+  border-left-style: outset;
+  border-left-width: 2px;
+  border-right-color: rgba(0, 0, 0, 0.0980392);
+  border-right-style: outset;
+  border-right-width: 2px;
+  border-top-color: rgba(0, 0, 0, 0.0980392);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-style: outset;
+  border-top-width: 2px;
+  box-sizing: border-box;
+  color: rgb(168, 52, 37);
+  cursor: pointer;
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+  height: 60px;
+  letter-spacing: normal;
+  text-align: center;
+  text-shadow: #300000 0px 1px;
+}
+
+.btn:hover {
+  background-color: #CD6E1E;
+  color: #010101;
+  text-shadow: none;
 }
 
 .apoiadores div {
