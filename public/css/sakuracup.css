@@ -68,6 +68,7 @@ dt {
   letter-spacing: normal;
   text-align: center;
   text-shadow: #300000 0px 1px;
+  padding-top: 18px;
 }
 
 .btn:hover {
