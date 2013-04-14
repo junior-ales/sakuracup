@@ -99,3 +99,13 @@ dt {
 .apoiadores img {
   max-height: 50px;
 }
+
+#local {
+  text-decoration: none;
+}
+
+#local:hover {
+  text-shadow: #010101 3px 3px;
+  font-size: 12pt;
+}
+
