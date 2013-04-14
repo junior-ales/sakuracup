@@ -1,14 +1,39 @@
+body {
+  background-color: #300000;
+}
+
+h1, h2 {
+  color: #DA981E;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h1 small, dt {
+  color: #A83425;
+}
+
 dl {
   font-size: 12pt;
   margin-left: 30px;
 }
 
 dd {
+  color: #CD6E1E;
   font-weight: normal;
 }
 
 dt {
   margin-top: 10px;
+}
+
+.page-header {
+  border-color: #A83425;
+}
+
+.img-polaroid {
+  background-color: #A83425;
 }
 
 .apoiadores div {
