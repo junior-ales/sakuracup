@@ -37,8 +37,6 @@ dt {
 }
 
 .btn {
-  margin-top: 25px;
-  margin-bottom: 35px;
   background-color: #DA981E;
   background-image: none;
   border-bottom-color: rgba(0, 0, 0, 0.247059);
@@ -62,19 +60,34 @@ dt {
   cursor: pointer;
   display: block;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16pt;
   font-weight: bold;
-  height: 60px;
   letter-spacing: normal;
   text-align: center;
   text-shadow: #300000 0px 1px;
-  padding-top: 18px;
 }
 
 .btn:hover {
   background-color: #CD6E1E;
   color: #010101;
   text-shadow: none;
+}
+
+.botao-lista-inscritos, .botao-menu {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  font-size: 16pt;
+  height: 60px;
+  padding-top: 18px;
+}
+
+.botao-menu {
+  width: 250px;
+  margin-left: 36%;
+}
+
+.inscritos {
+  display: block;
+  text-align: center;
 }
 
 .apoiadores div {
