@@ -48,7 +48,7 @@ dt {
   background-color: #A83425;
 }
 
-.btn {
+.botao {
   background-color: #DA981E;
   background-image: none;
   border-bottom-color: rgba(0, 0, 0, 0.247059);
@@ -67,7 +67,6 @@ dt {
   border-top-right-radius: 6px;
   border-top-style: outset;
   border-top-width: 2px;
-  box-sizing: border-box;
   color: rgb(168, 52, 37);
   cursor: pointer;
   display: block;
@@ -76,20 +75,18 @@ dt {
   letter-spacing: normal;
   text-align: center;
   text-shadow: #300000 0px 1px;
-}
-
-.btn:hover {
-  background-color: #CD6E1E;
-  color: #010101;
-  text-shadow: none;
-}
-
-.botao-lista-inscritos, .botao-menu {
   margin-top: 25px;
   margin-bottom: 35px;
   font-size: 16pt;
-  height: 60px;
+  height: 40px;
   padding-top: 18px;
+}
+
+.botao:hover {
+  background-color: #CD6E1E;
+  color: #010101;
+  text-shadow: none;
+  text-decoration: none;
 }
 
 .botao-menu {
