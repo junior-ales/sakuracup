@@ -19,12 +19,16 @@ h1, h2 {
   color: #DA981E;
 }
 
-h2 {
+h2, #subtitulo {
   font-size: 18pt;
 }
 
-h1 small, dt {
+#subtitulo, dt {
   color: #A83425;
+}
+
+#subtitulo {
+  font-weight: normal;
 }
 
 dl {
