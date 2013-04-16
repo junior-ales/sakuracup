@@ -23,7 +23,7 @@ h2, #subtitulo {
   font-size: 18pt;
 }
 
-#subtitulo, dt {
+#subtitulo, dt, thead {
   color: #A83425;
 }
 
@@ -31,12 +31,24 @@ h2, #subtitulo {
   font-weight: normal;
 }
 
+#tabela-inscritos, #tabela-inscritos thead tr th, #tabela-inscritos tbody tr td {
+  border-color: #DA981E;
+}
+
+#tabela-inscritos thead tr th {
+  font-size: 14pt;
+}
+
+#tabela-inscritos tbody tr td {
+  font-size: 12pt;
+}
+
 dl {
   font-size: 11pt;
   margin-left: 30px;
 }
 
-dd {
+dd, tbody {
   color: #CD6E1E;
   font-weight: normal;
 }
