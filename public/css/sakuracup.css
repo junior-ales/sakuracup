@@ -176,3 +176,42 @@ dt {
     width: 350px;
   }
 }
+
+@media (min-width: 501px) and (max-width: 685px) {
+  body {
+    background: #300000;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  #botao-inscritos {
+    width: 250px;
+  }
+
+  #subtitulo {
+    font-size: 14pt;
+  }
+
+  .botao-menu {
+    margin-left: 25%;
+  }
+
+  #coluna-cartaz #botao-inscritos {
+    margin-left: 20%;
+  }
+
+  #coluna-cartaz #botao-cartaz {
+    margin-left: 14%;
+  }
+
+  .page-header {
+    width: 350px;
+  }
+
+  .container, #coluna-cartaz, #coluna-info {
+    width: 500px;
+  }
+}
+
