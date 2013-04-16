@@ -49,6 +49,10 @@ dt {
   border-color: #A83425;
 }
 
+.page-header a {
+  text-decoration: none;
+}
+
 .img-polaroid {
   background-color: #A83425;
 }
