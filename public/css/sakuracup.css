@@ -152,6 +152,10 @@ dt {
     font-size: 14pt;
   }
 
+  .botao-menu {
+    margin-left: 16%;
+  }
+
   .page-header, .container, #coluna-cartaz, #coluna-info {
     width: 350px;
   }
