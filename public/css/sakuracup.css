@@ -123,3 +123,36 @@ dt {
   font-size: 12pt;
 }
 
+@media (max-width: 500px) {
+  body {
+    background: #300000;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+ 
+  #apoiadores1 {
+    display: table-caption;
+    width: 200px;
+    float: left;
+  }
+
+  #apoiadores2 {
+    display: table-caption;
+    position: relative;
+  }
+
+  #botao-inscritos {
+    width: 250px;
+    margin-left: 10%;
+  }
+
+  #subtitulo {
+    font-size: 14pt;
+  }
+
+  .page-header, .container, #coluna-cartaz, #coluna-info {
+    width: 350px;
+  }
+}
