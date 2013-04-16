@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+  width: 900px;
   background-color: #300000;
 }
 
