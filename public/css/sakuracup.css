@@ -31,15 +31,15 @@ h2, #subtitulo {
   font-weight: normal;
 }
 
-#tabela-inscritos, #tabela-inscritos thead tr th, #tabela-inscritos tbody tr td {
+.tabela, .tabela thead tr th, .tabela tbody tr td {
   border-color: #DA981E;
 }
 
-#tabela-inscritos thead tr th {
+.tabela thead tr th {
   font-size: 14pt;
 }
 
-#tabela-inscritos tbody tr td {
+.tabela tbody tr td {
   font-size: 12pt;
 }
 

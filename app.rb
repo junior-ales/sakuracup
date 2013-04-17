@@ -13,5 +13,6 @@ get '/cartaz' do
 end
 
 get '/dev' do
+  @helper = Helper.new
   erb :inscritos
 end

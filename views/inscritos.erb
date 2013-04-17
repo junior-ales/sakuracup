@@ -1,44 +1,16 @@
 <div class="inscritos">
   <h2>Lista de Inscritos</h2>
-  <table id="tabela-inscritos" class="table table-bordered">
+  <table class="table table-bordered tabela">
     <thead>
       <tr>
         <th>Nome</th>
+        <th>Categoria</th>
         <th>Peso</th>
         <th>Faixa</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Edilson Luiz Ales Junior</td>
-        <td>70kg</td>
-        <td>Branca</td>
-      </tr>
-      <tr>
-        <td>Edilson Luiz Ales Junior</td>
-        <td>70kg</td>
-        <td>Branca</td>
-      </tr>
-      <tr>
-        <td>Edilson Luiz Ales Junior</td>
-        <td>70kg</td>
-        <td>Branca</td>
-      </tr>
-      <tr>
-        <td>Edilson Luiz Ales Junior</td>
-        <td>70kg</td>
-        <td>Branca</td>
-      </tr>
-      <tr>
-        <td>Edilson Luiz Ales Junior</td>
-        <td>70kg</td>
-        <td>Branca</td>
-      </tr>
-      <tr>
-        <td>Edilson Luiz Ales Junior</td>
-        <td>70kg</td>
-        <td>Branca</td>
-      </tr>
+      <%= @helper.nova_linha("Ronaldo;Pesado;102kg;Branca") %>
     </tbody>
   </table>
   <a class="botao botao-menu" href="/">Página Inicial</a>
