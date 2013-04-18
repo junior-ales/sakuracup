@@ -12,7 +12,7 @@
     <tbody>
       <% counter = 0 %>
       <% erros = "" %>
-      <% CSV.foreach("inscritos.csv") do |row| %>
+      <% CSV.foreach("inscritos.csv", encoding: "UTF-8") do |row| %>
         <% linha =  @helper.nova_linha(row.join(";")) %>
         <% erros << "#{linha}<br />" if linha.start_with?("ERRO:") %>
         <% counter += 1%>
