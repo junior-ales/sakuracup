@@ -1,7 +1,7 @@
 class Helper
   def nova_linha(dados_inscrito)
    array_dados = dados_inscrito.split(';') 
-   return nil unless array_dados.size == 4
+   return "ERRO:#{dados_inscrito}" unless array_dados.size == 4
 
    nome = array_dados[0]
    categoria = array_dados[1]

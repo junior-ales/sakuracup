@@ -4,14 +4,22 @@
     <thead>
       <tr>
         <th>Nome</th>
-        <th>Categoria</th>
+        <th>Classe</th>
         <th>Peso</th>
         <th>Faixa</th>
       </tr>
     </thead>
     <tbody>
-      <%= @helper.nova_linha("Ronaldo;Pesado;102kg;Branca") %>
+      <% counter = 0 %>
+      <% erros = "" %>
+      <% CSV.foreach("inscritos.csv") do |row| %>
+        <% linha =  @helper.nova_linha(row.join(";")) %>
+        <% erros << "#{linha}<br />" if linha.start_with?("ERRO:") %>
+        <% counter += 1%>
+        <%= linha %>
+      <% end %>
     </tbody>
   </table>
+  <%= puts "Total de linhas: #{counter}\nErros: #{erros}" if ENV['RACK_ENV'] == "development" %>
   <a class="botao botao-menu" href="/">Página Inicial</a>
 </div>

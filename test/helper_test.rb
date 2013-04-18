@@ -8,6 +8,6 @@ class HelperTest < Test::Unit::TestCase
   end
 
   def test_tentar_criar_nova_linha_com_dados_invalidos
-    assert_nil(Helper.new.nova_linha("dados sem separadores corretos"))
+    assert_equal("ERRO:dados sem separadores corretos", Helper.new.nova_linha("dados sem separadores corretos"))
   end
 end
