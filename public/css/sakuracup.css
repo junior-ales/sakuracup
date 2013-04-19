@@ -69,6 +69,23 @@ dt {
   background-color: #A83425;
 }
 
+.filtro-por-faixa img {
+  margin-bottom: 25px;
+  height: 30px;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.filtro-por-faixa img:hover {
+  margin-top: -15px;
+  transition: margin-top 0.3s;
+}
+
+.filtro-por-faixa img.habilitado {
+  opacity:1;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
 .botao {
   background-color: #DA981E;
   background-image: none;
