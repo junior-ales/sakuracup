@@ -38,6 +38,7 @@
   .tabela tbody tr td {
     font-size: 10pt;
   }
+
   .page-header, .container, #coluna-cartaz, #coluna-info {
     width: 350px;
   }
@@ -68,7 +69,7 @@
     margin-left: 20%;
   }
 
-  #coluna-cartaz #botao-cartaz {
+  #botao-cartaz {
     margin-left: 14%;
   }
 
@@ -81,3 +82,36 @@
   }
 }
 
+@media (min-width: 686px) and (max-width: 930px) {
+  body {
+    background: #300000;
+  }
+
+  #botao-inscritos {
+    width: 250px;
+  }
+
+  #subtitulo {
+    font-size: 16pt;
+  }
+
+  .botao-menu {
+    margin-left: 25%;
+  }
+
+  #coluna-cartaz #botao-inscritos {
+    margin-left: 20%;
+  }
+
+  #botao-cartaz {
+    margin-left: 14%;
+  }
+
+  .page-header {
+    width: 450px;
+  }
+
+  .container, #coluna-cartaz, #coluna-info {
+    width: 500px;
+  }
+}
