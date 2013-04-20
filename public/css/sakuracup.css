@@ -64,6 +64,13 @@ h2, #subtitulo {
 
 dl {
   font-size: 11pt;
+}
+
+#coluna-info dt {
+  margin-top: 10px;
+}
+
+#coluna-info dl {
   margin-left: 30px;
 }
 
@@ -72,8 +79,17 @@ dd, tbody {
   font-weight: normal;
 }
 
-dt {
-  margin-top: 10px;
+.dl-horizontal dt, .dl-horizontal dd, #botao-cronograma {
+  margin-bottom: 10px;
+}
+
+.dl-horizontal dt {
+  width: 60px; 
+  text-align: center;
+}
+
+.dl-horizontal dd {
+  margin-left: 0px; 
 }
 
 .page-header {
