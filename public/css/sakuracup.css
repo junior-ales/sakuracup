@@ -31,6 +31,25 @@ h2, #subtitulo {
   font-weight: normal;
 }
 
+#desenvolvedor {
+  text-decoration: none;
+  color: #300000;
+  position: absolute;
+  right: 130px;
+  font-size: 9pt;
+  padding-bottom: 15px;
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  opacity: 0.3;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#desenvolvedor:hover {
+  opacity: 0.5;
+}
+
 .tabela, .tabela thead tr th, .tabela tbody tr td {
   border-color: #DA981E;
 }
@@ -67,6 +86,7 @@ dt {
 
 .img-polaroid {
   background-color: #A83425;
+  margin-bottom: 15px;
 }
 
 .filtro-por-faixa img {
