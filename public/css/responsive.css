@@ -31,6 +31,13 @@
     margin-left: 16%;
   }
 
+  .tabela thead tr th {
+    font-size: 12pt;
+  }
+
+  .tabela tbody tr td {
+    font-size: 10pt;
+  }
   .page-header, .container, #coluna-cartaz, #coluna-info {
     width: 350px;
   }
