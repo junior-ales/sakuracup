@@ -115,3 +115,9 @@
     width: 500px;
   }
 }
+
+@media (min-width: 931px) and (max-width: 1100px) {
+  body {
+    background: #300000;
+  }
+}
