@@ -23,7 +23,7 @@ h2, #subtitulo {
   font-size: 18pt;
 }
 
-#subtitulo, dt, thead {
+#subtitulo, #observacao, dt, thead {
   color: #A83425;
 }
 

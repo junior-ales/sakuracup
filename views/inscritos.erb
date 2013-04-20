@@ -21,16 +21,26 @@
       </tr>
     </thead>
     <tbody>
-      <% counter = 0 %>
+      <% counter, num_erros = 0, 0 %>
       <% erros = "" %>
       <% CSV.foreach("inscritos.csv", encoding: "UTF-8") do |row| %>
         <% linha =  @helper.nova_linha(row.join(";")) %>
-        <% erros << "#{linha}<br />" if linha.start_with?("ERRO:") %>
+        <% if linha.start_with?("ERRO:") %> 
+          <% erros << "#{$.}:#{linha} \n" %>
+          <% num_erros += 1 %>
+        <% end %>
         <% counter += 1%>
         <%= linha %>
       <% end %>
     </tbody>
   </table>
-  <%= puts "Total de linhas: #{counter}\nErros: #{erros}" if ENV['RACK_ENV'] == "development" %>
+  <p id="observacao">
+  * Qualquer informação incorreta ou dados que estejam faltando, favor pedir para seu professor contactar a organização do evento
+  </p>
+  <% if ENV['RACK_ENV'] == "development" %>
+    <%= puts "Erros:\n#{erros}" %>
+    <%= puts "Total de linhas: #{counter}" %>
+    <%= puts "Total de erros: #{num_erros}" %>
+  <% end %>
   <a class="botao botao-menu" href="/">Página Inicial</a>
 </div>
