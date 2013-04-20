@@ -1,26 +1,29 @@
 Adriano Mello;Adulto;Leve;Branca
 Adriano Perroni;Adulto;Pesado;Branca
-Alberto Lotterman;Adulto;Pena;Azul
-Alex Mawardi;Adulto;Leve;Azul
+Alberto Lotterman;Adulto;Pesadíssimo;Roxa
+Alex Mainardi;Adulto;Leve;Azul
 Alexandro Rozo;Máster;70kg;Azul
 Alisson Santana;15 anos;59.1kg;Branca
 Allisson Amorim;Adulto;Leve;Roxa
 Anderson Costa;Adulto;82.3kg;Azul
-Anderson Manoso;13 anos;41kg;Cinza
+Anderson Manoso;Infanto Juvenil;41kg;Cinza
+Anderson Meneghetti;Adulto;Pesadíssimo;Marrom
+Anderson Tealdo;Máster;Pesadíssimo;Branca
 Andryo Werenicz;Juvenil;Pena;Verde
 André Luptak;Adulto;Meio Pesado;Azul
+André Maturro;Adulto;Leve;Branca
 André Rodrigues;Máster;Médio;Roxa
 Artur Bueno;-;-;-
 Artur de Lima Santana;Juvenil;81kg;Branca
 Barbara Trevisani;Feminino Pesadíssimo;Adulto;Azul
 Benhur Martins;12 anos;41kg;Amarela
-Brenda Andrade;11 anos;39kg;Cinza
+Brenda Andrade;Infantil;Leve;Cinza
 Breno Silveira;Adulto;Pluma;Branca
-Breno Vargas Souto;Juvenil;49kg;Amarela
 Bruno Braggi;Adulto;112kg;Branca
 Bruno Fagundes;Adulto;Pesado;Marrom
 Bruno Matiello;Adulto;Leve;Azul
 Bruno Oliveira;Sênior;88.3kg;Branca
+Bruno Vargas Souto;Infanto Juvenil;49kg;Amarela
 Cacildo Vargas;Adulto;Médio;Branca
 Carine Carvalho;Feminino Adulto;71kg;Branca
 Carlos Alberto Gamarro;Máster;82kg;Branca
@@ -32,17 +35,16 @@ Cassiano dos Santos;Adulto;Leve;Branca
 Cesar Vortmann;Adulto;Pluma;Branca
 Cristian Solla;Juvenil;Leve;Laranja
 Cássio Pereira;Adulto;Pesado;Branca
-Daniel Vicente;10 anos;35kg;Amarela
+Daniel Vicente;Infantil;Leve;Amarela
 Daniel faria;Adulto;76kg;Branca
 David Alves Silva;Adulto;Médio;Roxa
 David Nogueira;Máster;Médio;Branca
-David Rodrigues;15 anos;61kg;Laranja
+David Rodrigues;Infanto Juvenil;Meio Pesado;Laranja
 Deivid Cardoso;Máster;Meio Pesado;Azul
 Deivid Da Silva Pinto;Adulto;Galo;Azul
 Deivid Queiroz Nunes;Adulto;73kg;Azul
 Deivisson Soares Fernandes;Adulto;Leve;Branca
 Denis Queiroz Nunes;Adulto;77kg;Azul
-Denise Gomes;Feminino Adulto;Pena;Branca 
 Denise Pacheco Gomes;Feminino Adulto;57kg;Branca
 Denílson Bittencurt;Máster;Médio;Preta
 Deyvid Pontes;Adulto;70kg;Azul
@@ -51,18 +53,20 @@ Diego Duro;Adulto;Pesado;Azul
 Diego Mini Régis;Adulto;Leve;Branca
 Diego Santos;Máster;Leve;Branca
 Diego Silveira Silva;Adulto;Pluma;Azul
-Dimitrius Acosta;13 anos;63kg;Amarela
-Dimitrius Carvalho;Juvenil;74kg;Branca
+Dimitrius Acosta;Infanto Juvenil;Super Pesado;Amarela
+Dimitrius Carvalho;Juvenil;Médio;Branca
 Diogo Duccatti;Máster;88kg;Marrom
 Dionatan Raí;Adulto;Leve;Azul
 Dionattan dos Santos;Adulto;Leve;Branca
 Douglas Giordano;Adulto;Super Pesado;Roxa
 Douglas Neves;15 anos;100kg;Branca
 Dulcidio Sobrinho;Máster;104kg;Branca
-Eder Brião;Máster;77kg;Azul
+Eder Brião;Adulto;77kg;Azul
+Eder Macedo;Adulto;Pesadíssimo;Branca
 Ederson Sander;Adulto;Pesadíssimo;Azul
 Edgard Lima;Sênior;Leve;Azul
 Edilson Ales;Adulto;76kg;Branca
+Edilson Lopes;Adulto;Pesadíssimo;Branca
 Eduardo Fonseca;Juvenil;76kg;Branca
 Eduardo Lacerda;Máster;Pena;Azul
 Eduardo Machado;17 anos;79.3kg;Branca
@@ -71,13 +75,14 @@ Eduardo Rodrigues;Adulto;76kg;Branca
 Eduardo Schumacher;Máster;Médio;Preta
 Eduardo Silva;Adulto;Médio;Marrom
 Emerson Soares;Adulto;Pluma;Azul
-Enderson Endres;10 anos;30kg;Laranja
+Enderson Endres;Infantil;Pluma;Laranja
 Eraldo Rocha;Máster;Médio;Branca
 Erirreus Juriã Dias;Sênior I;Leve;Azul
-Evelin Farias;Feminino Juvenil;Leve;Amarela
+Evelin Farias;Feminino Juvenil;Médio;Amarela
 Fabiana Souza;Juvenil;Pena;Laranja
-Fabiano Cailon Castilho;Máster;95kg;Branca
-Fabiano Sodré;Adulto;76kg;Marrom
+Fabiano Cailon Castilho;Adulto;95kg;Branca
+Fabiano Roque;Adulto;Leve;Azul
+Fabiano Sodré;Máster;Pena;Marrom
 Fabio Alano;Adulto;82.3kg;Branca
 Fabio Moreira;Adulto;Pena;Branca
 Fabricio Correa;Adulto;Pesado;Branca
@@ -85,16 +90,16 @@ Fabrício dos Santos Coelho;Máster;Médio;Preta
 Felipe Catani;Adulto;82kg;Azul
 Felipe Garcia;Juvenil;83kg;Branca
 Felipe Oliveira;Adulto;Pena;Branca 
-Felipe Pohlmann;Máster;126kg;Branca
+Felipe Pohlmann;Adulto;126kg;Branca
 Felipe Tavares;Adulto;Pesadíssimo;Azul
 Felipe da Luz;Adulto;Pesadíssimo;Branca
 Fernando Avancini;Adulto;Médio;Branca
 Fernando Herz;Adulto;Médio;Azul 
 Fernando Knak;Adulto;105kg;Roxa
-Fernando Oliveira;Adulto;Médio;Roxa
+Fernando Oliveira;Adulto;Meio Pesado;Roxa
 Fernando Tobini;Adulto;Meio Pesado;Branca
 Filipe Silva;Adulto;Pesado;Marrom
-Flávio Braga;Adulto;70kg;Branca
+Flávio Braga;Adulto;70kg;Branca 
 Flávio Oliveira;Adulto;76kg;Branca
 Francine Muller;Feminino Adulto;57kg;Branca
 Francisco Kobielstski;-;-;-
@@ -103,22 +108,25 @@ Frederico Martins;Adulto;Médio;Azul
 Fábio Cruz;Adulto;Super Pesado;Azul
 Fábio Kist;Adulto;88.3kg;Azul
 Fábio Pires;Adulto;Médio;Azul 
-Gabriel Boelter;Máster;108kg;Branca
-Gabriel Correa;13 anos;45kg;Amarela
-Gabriel Da Silva;Juvenil;60kg;Verde
-Gabriel Galvan;Juvenil;68kg;Amarela
+Gabriel Boelter;Adulto;108kg;Branca
+Gabriel Correa;Infanto Juvenil;Leve;Amarela
+Gabriel Da Silva;Infanto Juvenil;60kg;Verde
+Gabriel Galvan;Juvenil;Leve;Amarela
 Gabriel Machado Horn;Adulto;Pluma;Azul
 Gabriel Prestes;Adulto;105kg;Azul
 Gabriel Ruaro;Adulto;82.3kg;Branca
 Geison Brusque;Adulto;Pesadíssimo;Branca
 Geraldo Santos;Adulto;Médio;Branca
-Guilherme Criscvoli;Adulto;Meio Pesado;Branca
-Guilherme Dal Pra Neres Silva;12 anos;62kg;Amarela
+Guilherme (Brock);Adulto;Leve;Azul
+Guilherme Criscvoli;Adulto;Médio;Branca
+Guilherme Dal Pra Neres Silva;Infantil;Pesadíssimo;Amarela
 Guilherme Entrudo;Adulto;Pena;Branca
+Guilherme Fernandes;Adulto;Pena;Azul
 Guilherme Fonseca;Juvenil;Pluma;Branca 
 Guilherme Prade;Adulto;Meio Pesado;Branca 
+Guilherme Silva;Adulto;Pluma;Branca
 Gustavo Fonseca;Juvenil;-;-
-Gustavo da Silva;Juvenil;70kg;Laranja
+Gustavo da Silva;Infantil;70kg;Laranja
 Helio Junior Pena;Adulto;Pena;Branca
 Helio Junior;Adulto;Pena;Branca
 Henrique Linde;Adulto;Pena;Branca
@@ -126,13 +134,13 @@ Hygor Beck;Adulto;Pesado;Azul
 Isaias de Matos;Adulto;Meio Pesado;Azul
 Ismael Fagundes;Máster;Médio;Azul
 Ismael Fagundes;Máster;Médio;Azul
-Jaderson Alves;-;-;-
+Jaderson Alves;Adulto;98kg;Branca
 Jaime Mattos;Máster;Leve;Marrom
 Jamur Ourique;SeniorII;Médio;Branca
-Jean Pablo Silva;Juvenil;73kg;Branca
+Jean Koio;Adulto;Médio;Branca
+Jean Pablo Silva;Juvenil;Médio;Branca
 Jean Pitres;Adulto;82kg;Branca
 Jeferson Negrini;Adulto;Pesado;Roxa
-Jefferson Adam;Máster;Leve;Preta
 Jerri dos Santos;Adulto;Super Pesado;Branca
 Jerônimo Ramos;Adulto;Pesado;Branca
 Jessica Schneider;Adulto;77kg;Branca
@@ -144,33 +152,35 @@ Jorge Luis Coutinho;Adulto;Médio;Roxa
 Jorge Walter;Adulto;76kg;Azul
 Jose Gabriel;Infanto/Juvenil;Pesado;Branca
 João Bernardes;Adulto;Pesado;Azul
-João Mallmann Kem;Juvenil;78kg;Laranja
+João Mallmann Kem;Juvenil;Meio Pesado;Laranja
 João Miranda;Adulto;Super Pesado;Azul
-João Paulo Gonçalves;Adulto;Pena;Azul
+João Paulo Gonçalves;Adulto;Leve;Azul
 João Pedro Borer;Adulto;Pesadíssimo;Branca
-Juan Rosa Santos;Juvenil;50kg;Branca
-Juli Rosário;10 anos;36kg;Branca
+Juan Rosa Santos;Infantil;50kg;Branca
+Juli Rosário;Infantil;Leve;Branca
 Julianne dos Santos;Juvenil;Pena;Branca
-Juliano Cruz;Máster;88.3kg;Branca
 Jéssica Teixeira Feminino;Adulto;Médio;Branca
 Kim Ramires;Adulto;Pesadíssimo;Branca
 Kleiton Lanferdini;Adulto;Meio Pesado;Branca 
-Leandro Ramos;Máster;Pesadíssimo;-
-Leandro Rosseti;Adulto;Pena;Roxa
+Leandro Ramos;Máster;Pesadíssimo;Azul
+Leandro Rosseti;Adulto;Médio;Roxa
 Leandro Soares;Adulto;64kg;Azul
 Leo Marcos de Paula;Máster;Pesado;Branca
 Leonardo Barros;Adulto;Médio;Branca
 Leonardo Braga;Adulto;Pesadíssimo;Branca
+Leonardo Rodrigues;16 anos;98kg;Branca
 Leonardo Wents;Adulto;Leve;Branca
-Leonardo da Rosa;15 anos;100kg;Amarela
+Leonardo da Rosa;Infanto Juvenil;Pesadíssimo;Amarela
 Leonardo da Silva;Infantil;Pesadíssimo;Branca
 Lourdes Marques Lima;Adulto;85kg;Branca
-Lucas Edgard Oliveira;14 anos;57kg;Amarela
+Lucas Edgard Oliveira;Infanto Juvenil;Meio Pesado;Amarela
 Lucas Fialho;Adulto;Pesado;Branca
-Lucas Kauan Souza;15 anos;67kg;Cinza
+Lucas Fraga;Adulto;Pena;Branca 
+Lucas Gatti;Adulto;Meio Pesado;Marrom
+Lucas Kauan Souza;Infanto Juvenil;Pesado;Cinza
 Lucas Perutti;Adulto;Meio Pesado;Branca
 Lucas Rambo;Juvenil;Meio Pesado;Branca
-Lucas Rataeski;Juvenil;58kg;Laranja
+Lucas Rataeski;Juvenil;Pluma;Laranja
 Lucas Reis;Adulto;64kg;Branca
 Lucas Ziemann;Juvenil;Pena;Branca
 Lucas leite;Adulto;80kg;Branca
@@ -180,7 +190,7 @@ Luiggi Alba;Juvenil;Pesado;Branca
 Luis Gustavo Wolf;Adulto;Super Pesado;Roxa
 Luis Kobieltski;Adulto;76kg;Branca
 Luiz Duncan;Adulto;88.3kg;Branca
-Luiz Fernando Correia;Máster;73kg;Azul
+Luiz Fernando Correia;Adulto;73kg;Azul
 Maicon Luis da Silva;Adulto;Pena;Azul
 Maicon Rodrigues Freitas;Adulto;105kg;Branca
 Makssuel Santana;Adulto;Médio;Branca
@@ -188,52 +198,56 @@ Maquir Moreira;Juvenil;Meio Pesado;Branca
 Marcello Melo;Adulto;Pluma;Azul
 Marcelo Bischorff;Adulto;70kg;Branca
 Marcelo Fatini;Máster;Médio;Azul
+Marcelo Fattini;Máster;91kg;Azul
 Marcelo Telo;Sênior;Super Pesado;Branca
 Marcio Cerutti;Adulto;68kg;Branca
 Marco Anatônio Porciúncula;Máster;Meio Pesado;Marrom
 Marco Pisoni;Adulto;Leve;Azul
+Marco Varela;11 anos;Meio Pesado;Branca
 Marcos Roldão;Máster;88.3kg;Marrom
-Marcos Varela;11 anos;-;Branca
-Marlon de Souza;Adulto;-;-
+Marlon de Souza;Adulto;Leve;Branca
 Matheus Avrella;Adulto;Pesado;Azul
 Matheus Barden;Adulto;Médio;Azul
-Matheus Brandi Vieira;10 anos;55kg;Amarela
+Matheus Brandi Vieira;Infantil;Pesadíssimo;Amarela
 Matheus Correia;Adulto;76kg;Branca
-Mathias Moreira;10 anos;34kg;Branca
-Mauricio Peixoto;Adulto;Pesado;Azul
-Mauro Peixoto Jr.;Adulto;Super Pesado;Roxa
+Mathias Moreira;Infantil;Leve;Branca
+Mauricio Peixoto;Adulto;Pesadíssimo;Azul
+Mauro Peixoto Jr.;Adulto;Pesadíssimo;Roxa
 Messias Maciel;Adulto;82.3kg;Branca
 Michel Leotti;Adulto;Meio Pesado;Azul
 Michel Rosa;Adulto;Pena;Branca
 Michelle Machado;Adulto;Leve;Azul
-Mik Rysysdick;14 anos;80kg;Branca
+Mik Rysysdick;Infanto Juvenil;Pesadíssimo;Branca
 Milton Pereira;Adulto;Pluma;Branca
 Mitchan Zathar;Adulto;76kg;Roxa
 Moisés Pereira;Máster;Meio Pesado;Azul
 Murilo Amaral;Adulto;Pena;Roxa
+Márcia Ale Feminino;Adulto;Meio Pesado;Branca
 Nenguiru Martins;Máster;94kg;Azul
 Nicolas Cunha;Adulto;70kg;Azul
 Nicolas Meregale;Adulto;Médio;Azul
-Nicolas Viegas;10 anos;45kg;Amarela
-Onairam Oliveira;Máster;70kg;Azul
+Nicolas Viegas;Infantil;Pesado;Amarela
+Onairam Oliveira;Máster;76kg;Azul
 Pablo Bragança;Adulto;Pluma;Roxa
 Paulo Giliarde;Adulto;Médio;Roxa
 Paulo Jonco;Adulto;Médio;Branca
 Paulo Marcos;Máster;Leve;Branca
+Pedro Enrico;Adulto;Branca;Leve
 Pedro Henrique Ribeiro;Adulto;88.3kg;Azul 
 Pedro Henrique Soares;Adulto;109kg;Branca
 Pedro Palermo;Adulto;Médio;Azul
 Pedro dos Santos;Adulto;Pena;Azul 
-Phillippe Wulforte;Infanto juvenil;60kg;Laranja
+Phillippe Wulforte;Infanto juvenil;Meio Pesado;Laranja
 Rafael Bischoff;Adulto;70kg;Azul
 Rafael De Conto;-;Pesadíssimo;Azul
+Rafael Fernandes;Adulto;Leve;Azul
 Rafael Lacerda;Adulto;Leve;Branca
 Rafael Lopes;Adulto;76kg;Branca
 Ramon Coelho Rost;Adulto;Meio Pesado;Roxa
 Ramon Soares Rosa;Adulto;Médio;Azul
 Raul Moreau;16 anos;74kg;Branca
 Renan Guedes;Adulto;82kg;Branca
-Renan Minato Lopes;Juvenil;91kg;Branca
+Renan Minato Lopes;Infanto Juvenil;91kg;Branca
 Renato Godoy;Adulto;75kg;Branca
 Ricardo Marc;Adulto;Pena;Roxa
 Ricardo Moraes;Adulto;Médio;Branca
@@ -245,25 +259,28 @@ Rodolfo Souza;Adulto;100kg;Roxa
 Rodrigo Anguer;Adulto;Meio Pesado;Branca
 Rodrigo Araújo;15 anos;54kg;Branca
 Rodrigo Burlan;Adulto;70kg;Azul
+Rodrigo Damiani;Adulto;Meio Pesado;Branca
 Rodrigo Gomes;Adulto;Médio;Branca
 Rodrigo Milico;Adulto;Pesado;Branca 
 Rodrigo Porto;Adulto;94kg;Branca
 Rodrigo de Figueiredo;Adulto;Leve;Branca
 Roger Cardoso;Adulto;79kg;Azul
 Roger Nunes;Sênior I;Pesado;Roxa
+Rogério Junior;Adulto;Leve;Branca
 Ronaldo Pires;Sênior;76kg;Azul
 Ruan Fogaca;Juvenil;Pesadíssimo;Amarela
 Ruâ Vitor Rosa de Oliveira;Infantil;50kg;Branca
 Rômulo Mattos;Máster;Leve;Roxa
-Samuel Bertolucci;15 anos;76kg;Verde
+Samuel Bertolucci;Infanto Juvenil;Pesadíssimo;Verde
 Samuel Pereira;Máster;Pesado;Branca
 Sidinei Guimarães;Adulto;Meio Pesado;Branca
 Stefano Ferraz;Máster;Médio;Azul
 Stefano Pereira;Máster;Médio;Azul 
 Suelen Machado;Feminino Adulto;73kg;Branca
-Tales Taborda;Juvenil;66kg;Azul
+Tales Taborda;Juvenil;Leve;Azul
 Tamires Rodrigues;Feminino 16 Anos;64kg;Branca
 Tarcísio Linhares;15 anos;47kg;Branca
+Thanise Casarin;Adulto;Leve;Azul
 Thauany Campani;9 anos;31kg;Amarela
 Thiago Bittencourt;Adulto;76kg;Branca
 Thiago Lima;Adulto;76kg;Branca
@@ -275,17 +292,17 @@ Tiago Silva Santos;Adulto;92kg;Azul
 Tiago dos Santos;Adulto;72kg;Azul
 Vagner Bueno Capela;Adulto;Leve;Preta
 Valmor Silva;Sênior;88.3kg;Branca
-Victor Ferreira Silva;9 anos;26kg;Branca
+Victor Ferreira Silva;Mirim;Pluma;Branca
 Vinicios dos Santos;Adulto;82.3kg;-
 Vinicius Vasconcellos;Adulto;Médio;Branca
-Vinicius de Bom;Infantil;52kg;Amarela
+Vinicius de Bom;Infantil;Pesado;Amarela
 Vitor Alves;Adulto;Pesado;Branca
-Vitor Antunes;Adulto;Pluma;Roxa
-Wagner Ferreira;Juvenil;62kg;Branca
+Vitor Antunes;Adulto;Leve;Roxa
+Wagner Ferreira;Juvenil;Pena;Branca
 Wagner Reis Silveira;Adulto;Pluma;Azul
-Welynton Maxsuel Souza;13 anos;49kg;Cinza
+Welynton Maxsuel Souza;Infanto Juvenil;Médio;Cinza
 William Costa;Adulto;Leve;Azul
 William Silva;Juvenil;Pluma;Branca
-William dos Santos;Adulto;Pesado;Azul
+William dos Santos;Adulto;Pesado;Branca
 Willian Brambilla;Adulto;88.3kg;Azul
 Willian Lopes;Adulto;76kg;Branca
