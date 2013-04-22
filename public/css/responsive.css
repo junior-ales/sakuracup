@@ -18,8 +18,7 @@
     position: relative;
   }
 
-  #botao-inscritos {
-    width: 250px;
+  .botao-pag-inicial {
     margin-left: 10%;
   }
 
@@ -53,10 +52,6 @@
     font-size: 24pt;
   }
 
-  #botao-inscritos {
-    width: 250px;
-  }
-
   #subtitulo {
     font-size: 14pt;
   }
@@ -65,7 +60,7 @@
     margin-left: 25%;
   }
 
-  #coluna-cartaz #botao-inscritos {
+  .botao-pag-inicial {
     margin-left: 20%;
   }
 
@@ -87,10 +82,6 @@
     background: #300000;
   }
 
-  #botao-inscritos {
-    width: 250px;
-  }
-
   #subtitulo {
     font-size: 16pt;
   }
@@ -99,7 +90,7 @@
     margin-left: 25%;
   }
 
-  #coluna-cartaz #botao-inscritos {
+  .botao-pag-inicial {
     margin-left: 20%;
   }
 

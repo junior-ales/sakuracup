@@ -62,6 +62,10 @@ h2, #subtitulo {
   font-size: 12pt;
 }
 
+.botao-pag-inicial {
+  margin-left: 10%;
+}
+
 dl {
   font-size: 11pt;
 }
@@ -153,6 +157,7 @@ dd, tbody {
   margin-bottom: 35px;
   font-size: 16pt;
   height: 40px;
+  width: 250px;
   padding-top: 18px;
 }
 
