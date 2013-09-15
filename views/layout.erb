@@ -30,15 +30,15 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="page-header">
-        <a href="/"><h1>SAKURA CUP - 2013 <em id="subtitulo">Grand Prix de Jiu-Jitsu</em></h1></a>
-      </div>
-      <%= yield %>
-    </div> 
-    <a id="desenvolvedor" href="http://about.me/juniorales" target="_blank">
-      desenvolvido por Junior Ales
-    </a>
+    <%= yield %>
+
+    <section class="row">
+      <section class="panel small-12 columns">
+        <a id="desenvolvedor" href="http://about.me/juniorales" target="_blank">
+          desenvolvido por Junior Ales
+        </a>
+      </section>
+    </section>
     <script src="/js/vendor/jquery.js"></script>
     <script src="/js/foundation.min.js"></script>
     <script src="/js/sakuracup.js"></script>
