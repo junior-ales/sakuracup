@@ -1,194 +1,42 @@
+@font-face {
+  font-family: 'Kelly Slab';
+  src: url('/fonts/KellySlab-Regular.ttf');
+}
+
 body {
-  background:#300000;
-  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#010101', endColorstr='#010101',GradientType=1 );
+  background:url('/img/fundo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /* hack pro IE */
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/fundo.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/fundo.jpg', sizingMethod='scale')";
 }
 
-.container {
-  width:900px;
-  background-color:#300000;
+h1, h2, h3 {
+  font-family: 'Kelly Slab', cursive;
 }
 
-h1 {
-  color:#DA981E;
+.panel {
+  border: none;
+  background-color: rgba(242, 242, 242, .7);
 }
 
-h2 {
-  color:#DA981E;
-  font-size:18pt;
+.no-background {
+  background-color: rgba(242, 242, 242, 0);
 }
 
-#subtitulo {
-  font-size:18pt;
-  color:#A83425;
-  font-weight:normal;
+#logo-section {
+  min-height: 450px;
 }
 
-#observacao, dt, thead {
-  color:#A83425;
+#logo-principal {
+  margin-top: 65px;
 }
 
-#desenvolvedor {
-  text-decoration:none;
-  color:#300000;
-  position:absolute;
-  right:130px;
-  font-size:9pt;
-  padding-bottom:15px;
-  text-shadow:-1px -1px 1px #fff, 1px 1px 1px #000;
-  opacity:0.3;
-  -webkit-transition:all 0.3s ease-in-out;
-  -moz-transition:all 0.3s ease-in-out;
-  -o-transition:all 0.3s ease-in-out;
-  transition:all 0.3s ease-in-out;
-}
-
-#desenvolvedor:hover {
-  opacity:0.5;
-}
-
-.tabela {
-  border-color:#DA981E;
-}
-
-.tabela thead tr th {
-  border-color:#DA981E;
-  font-size:14pt;
-}
-
-.tabela tbody tr td {
-  border-color:#DA981E;
-  font-size:12pt;
-}
-
-.botao-pag-inicial {
-  margin-left:10%;
-}
-
-dl {
-  font-size:11pt;
-}
-
-#coluna-info dt {
-  margin-top:10px;
-}
-
-#coluna-info dl {
-  margin-left:30px;
-}
-
-dd, tbody {
-  color:#CD6E1E;
-  font-weight:normal;
-}
-
-.dl-horizontal dt {
-  margin-bottom:10px;
-  width:60px;
-  text-align:center;
-}
-
-.dl-horizontal dd {
-  margin-bottom:10px;
-  margin-left:0px;
-}
-
-#botao-cronograma {
-  margin-bottom:10px;
-}
-
-.page-header {
-  border-color:#A83425;
-}
-
-.page-header a, #local {
-  text-decoration:none;
-}
-
-.img-polaroid {
-  background-color:#A83425;
-  margin-bottom:15px;
-}
-
-.filtro-por-faixa img {
-  margin-bottom:25px;
-  height:30px;
-  opacity:0.4;
-  filter:alpha(opacity=40);
-}
-
-.filtro-por-faixa img:hover {
-  margin-top:-15px;
-  transition:margin-top 0.3s;
-}
-
-.filtro-por-faixa img.habilitado {
-  opacity:1;
-  filter:alpha(opacity=100);
-}
-
-.botao {
-  background-color:#DA981E;
-  background-image:none;
-  border-bottom-color:rgba(0, 0, 0, 0.247059);
-  border-bottom-left-radius:6px;
-  border-bottom-right-radius:6px;
-  border-bottom-style:outset;
-  border-bottom-width:2px;
-  border-left-color:rgba(0, 0, 0, 0.0980392);
-  border-left-style:outset;
-  border-left-width:2px;
-  border-right-color:rgba(0, 0, 0, 0.0980392);
-  border-right-style:outset;
-  border-right-width:2px;
-  border-top-color:rgba(0, 0, 0, 0.0980392);
-  border-top-left-radius:6px;
-  border-top-right-radius:6px;
-  border-top-style:outset;
-  border-top-width:2px;
-  color:rgb(168, 52, 37);
-  cursor:pointer;
-  display:block;
-  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight:bold;
-  letter-spacing:normal;
-  text-align:center;
-  text-shadow:#300000 0px 1px;
-  margin-top:25px;
-  margin-bottom:35px;
-  font-size:16pt;
-  height:40px;
-  width:250px;
-  padding-top:18px;
-}
-
-.botao:hover {
-  background-color:#CD6E1E;
-  color:#010101;
-  text-shadow:none;
-  text-decoration:none;
-}
-
-.botao-menu {
-  width:250px;
-  margin-left:36%;
-}
-
-.inscritos {
-  display:block;
-  text-align:center;
-}
-
-.apoiadores div {
-  display:block;
-  text-align:center;
-  margin-bottom:10px;
-}
-
-.apoiadores img {
-  max-height:50px;
-}
-
-#local:hover {
-  text-shadow:#010101 3px 3px;
-  font-size:12pt;
+#titulo-principal {
+  font-size: 8em;
+  margin-left: 25px;
 }
