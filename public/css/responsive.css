@@ -6,5 +6,18 @@
   #titulo-principal {
     font-size: 6em;
   }
+
+  .sub-paineis {
+    min-height: initial;
+  }
+
+  .info-detalhe {
+    height: auto;
+  }
 }
 
+@media only screen and (max-width: 545px) {
+  .info-detalhe {
+    width: 100%;
+  }
+}

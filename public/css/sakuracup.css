@@ -3,6 +3,11 @@
   src: url('/fonts/KellySlab-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/fonts/RobotoSlab-Regular.ttf');
+}
+
 body {
   background:url('/img/fundo.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13,10 +18,21 @@ body {
   /* hack pro IE */
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/fundo.jpg', sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/fundo.jpg', sizingMethod='scale')";
+
+  font-family: 'Roboto Slab', cursive;
 }
 
 h1, h2, h3 {
   font-family: 'Kelly Slab', cursive;
+}
+
+hr {
+  border: 1px solid #acacac;
+}
+
+p {
+  text-align:justify;
+  text-justify:inter-word;
 }
 
 .panel {
@@ -24,16 +40,50 @@ h1, h2, h3 {
   background-color: rgba(242, 242, 242, .7);
 }
 
+.sub-paineis {
+  min-height: 310px;
+}
+
+.info-detalhe {
+  height: 150px;
+}
+
 .no-background {
   background-color: rgba(242, 242, 242, 0);
+  margin: 0px;
+}
+
+.enfase {
+  -webkit-text-shadow: 1px 1px 2px red;
+  -moz-text-shadow: 1px 1px 2px red;
+  text-shadow: 1px 1px 2px red;
+}
+
+.mais-info-button {
+  background-color: rgb(91, 91, 91);
+  border-color:  rgb(84, 84, 84);
+  color: #dadada;
+  margin-bottom: 0px;
+}
+
+.mais-info-button:hover {
+  background-color: rgb(51, 51, 51);
+  border-color:  rgb(44, 44, 44);
+  color: #ffffff;
 }
 
 #logo-section {
   min-height: 450px;
 }
 
+#info-section h3 {
+  margin-left: 25px;
+}
+
 #logo-principal {
   margin-top: 65px;
+  height: 297px;
+  width: 278px;
 }
 
 #titulo-principal {
