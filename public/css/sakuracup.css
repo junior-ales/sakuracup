@@ -22,6 +22,7 @@ html, body {
   font-family: 'Roboto Slab', cursive;
 }
 
+nav a,
 h1, h2, h3 {
   font-family: 'Kelly Slab', cursive;
 }
@@ -33,6 +34,15 @@ hr {
 p {
   text-align:justify;
   text-justify:inter-word;
+}
+
+nav a {
+  padding-left: 15px;
+  font-size: 1.5em;
+}
+
+#nav-menu {
+  padding: 50px 0px;
 }
 
 .panel {
@@ -59,13 +69,17 @@ p {
   text-shadow: 1px 1px 2px red;
 }
 
+nav a,
 .subtitulo {
+  color: #333;
   -webkit-text-shadow: 2px 2px 2px rgb(250, 250, 250);
   -moz-text-shadow: 2px 2px 2px rgb(250, 250, 250);
   text-shadow: 2px 2px 2px rgb(250, 250, 250);
 }
 
+nav a:hover,
 .subtitulo:hover {
+  color: #333;
   -webkit-text-shadow: 5px 5px 6px #868686;
   -moz-text-shadow: 5px 5px 6px #868686;
   text-shadow: 5px 5px 6px #868686;
@@ -99,8 +113,10 @@ p {
 
 #logo-principal {
   margin-top: 65px;
-  height: 297px;
-  width: 278px;
+}
+
+.columns-menu {
+  min-height: 129px;
 }
 
 #titulo-principal {
