@@ -76,7 +76,8 @@ p {
   min-height: 450px;
 }
 
-#info-section h3 {
+#info-section h3,
+#titulo-principal {
   margin-left: 25px;
 }
 
@@ -88,5 +89,4 @@ p {
 
 #titulo-principal {
   font-size: 8em;
-  margin-left: 25px;
 }

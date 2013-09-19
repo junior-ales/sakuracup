@@ -5,9 +5,9 @@
 
   #titulo-principal {
     font-size: 6em;
-    margin-left: initial;
   }
 
+  #titulo-principal,
   #info-section h3 {
     margin-left: initial;
   }
