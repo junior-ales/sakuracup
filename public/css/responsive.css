@@ -5,6 +5,11 @@
 
   #titulo-principal {
     font-size: 6em;
+    margin-left: initial;
+  }
+
+  #info-section h3 {
+    margin-left: initial;
   }
 
   .sub-paineis {
