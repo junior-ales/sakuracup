@@ -24,6 +24,11 @@
   #dev-section {
     padding-top: 20px;
   }
+
+  #premio-abudhabi,
+  #premio-sulamericano {
+    background: none;
+  }
 }
 
 @media only screen and (max-width: 545px) {

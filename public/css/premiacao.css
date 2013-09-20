@@ -1,0 +1,19 @@
+#tabela-premiacao {
+  width: 100%;
+  font-size: 1.5em;
+  border: none;
+}
+
+#tabela-premiacao, 
+#tabela-premiacao thead,
+#tabela-premiacao tbody tr {
+  background-color: rgba(242, 242, 242, 0);
+}
+
+#premio-sulamericano {
+  background:url('/img/premiacao/sulamericano.png') no-repeat right;
+}
+
+#premio-abudhabi {
+  background:url('/img/premiacao/abudhabi.png') no-repeat right;
+}
