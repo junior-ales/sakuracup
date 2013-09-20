@@ -12,12 +12,17 @@
     margin-left: initial;
   }
 
-  .sub-paineis {
+  .sub-paineis,
+  footer section {
     min-height: initial;
   }
 
   .info-detalhe {
     height: auto;
+  }
+
+  #dev-section {
+    padding-top: 20px;
   }
 }
 
