@@ -1,46 +1,14 @@
-<div class="inscritos">
-  <h2>Lista Parcial de Inscritos</h2>
-
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="branca" src="/img/faixa-branca.png" alt="Faixa Branca" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="amarela" src="/img/faixa-amarela.png" alt="Faixa Amarela" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="laranja" src="/img/faixa-laranja.png" alt="Faixa Laranja" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="verde" src="/img/faixa-verde.png" alt="Faixa Verde" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="azul" src="/img/faixa-azul.png" alt="Faixa Azul" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="roxa" src="/img/faixa-roxa.png" alt="Faixa Roxa" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="marrom" src="/img/faixa-marrom.png" alt="Faixa Marron" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid" data-faixa="preta" src="/img/faixa-preta.png" alt="Faixa Preta" /></a>
-  <a class="filtro-por-faixa" href=#><img class="img-polaroid habilitado" data-faixa="todas" src="/img/todas.png" alt="Todas Faixas" /></a>
-
-  <table class="table table-bordered tabela">
-    <thead>
-      <tr>
-        <th>Nome</th>
-        <th>Classe</th>
-        <th>Peso</th>
-        <th>Faixa</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% counter, num_erros = 0, 0 %>
-      <% erros = "" %>
-      <% CSV.foreach("inscritos.csv", encoding: "UTF-8") do |row| %>
-        <% linha =  @helper.nova_linha(row.join(";")) %>
-        <% if linha.start_with?("ERRO:") %> 
-          <% erros << "#{$.}:#{linha} \n" %>
-          <% num_erros += 1 %>
-        <% end %>
-        <% counter += 1%>
-        <%= linha %>
-      <% end %>
-    </tbody>
-  </table>
-  <p id="observacao">
-  * Qualquer informação incorreta ou dados que estejam faltando, favor pedir para seu professor contactar a organização do evento
-  </p>
-  <% if ENV['RACK_ENV'] == "development" %>
-    <%= puts "Erros:\n#{erros}" %>
-    <%= puts "Total de linhas: #{counter}" %>
-    <%= puts "Total de erros: #{num_erros}" %>
-  <% end %>
-  <a class="botao botao-menu" href="/">Página Inicial</a>
-</div>
+<%= erb :_header %>
+<section class="row">
+  <section class="panel small-12 columns">
+    <header>
+      <h2>Lista de Inscritos</h2>
+      <hr />
+    </header>
+    <p> A lista de inscritos do Sakura Cup II será disponibilizado logo após o término do período de inscrições </p>
+    <!--<p>
+      Qualquer informação incorreta ou dados que estejam faltando, favor pedir para seu professor contactar a organização do evento
+      </p>-->
+    <br />
+  </section>
+</section>
