@@ -36,6 +36,17 @@ p {
   text-justify:inter-word;
 }
 
+#facebook-plugin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:none; 
+  overflow:hidden; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 235px;
+  height: 100px;
+}
+
 .fixed {
   height: 120px;
 }
@@ -155,7 +166,7 @@ p {
 }
 
 #dev-section {
-  padding-top: 110px;
+  padding-top: 65px;
 }
 
 footer section {
@@ -163,7 +174,6 @@ footer section {
 }
 
 #dev-section p {
-  margin-top: 30px;
   font-size: 0.8em;
 }
 

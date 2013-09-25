@@ -8,6 +8,10 @@
     display: block;
   }
 
+  #facebook-plugin {
+    width: 300px;
+  }
+
   #titulo-principal {
     font-size: 6em;
   }
