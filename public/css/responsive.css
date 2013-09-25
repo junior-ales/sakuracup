@@ -1,6 +1,11 @@
 @media only screen and (max-width: 768px) {
-  #logo-section {
+  #logo-section,
+  #cabecalho-grande {
     display: none;
+  }
+
+  #cabecalho-pequeno {
+    display: block;
   }
 
   #titulo-principal {

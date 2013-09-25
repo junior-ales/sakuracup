@@ -22,7 +22,7 @@ html, body {
   font-family: 'Roboto Slab', cursive;
 }
 
-nav a,
+#nav-menu a,
 h1, h2, h3 {
   font-family: 'Kelly Slab', cursive;
 }
@@ -36,7 +36,39 @@ p {
   text-justify:inter-word;
 }
 
-nav a {
+.fixed {
+  height: 120px;
+}
+
+.top-bar {
+  background-color: #333;
+}
+
+#logo-cabecalho-pequeno {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo-menu {
+  opacity: 0.7;
+  -webkit-transition: opacity .3s linear;
+  -moz-transition: opacity .3s linear;
+  transition: opacity .3s linear;
+}
+
+#logo-menu:hover {
+  opacity: 1;
+}
+
+#cabecalho-pequeno {
+  display: none;
+  background-color: #333;
+}
+
+#nav-menu a {
   padding-left: 15px;
   font-size: 1.5em;
 }
@@ -69,7 +101,7 @@ nav a {
   text-shadow: 1px 1px 2px red;
 }
 
-nav a,
+#nav-menu a,
 .subtitulo,
 #desenvolvedor {
   color: #333;
@@ -78,7 +110,7 @@ nav a,
   text-shadow: 2px 2px 2px rgb(250, 250, 250);
 }
 
-nav a:hover,
+#nav-menu a:hover,
 .subtitulo:hover,
 #desenvolvedor:hover {
   color: #333;
