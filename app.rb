@@ -2,11 +2,11 @@ require 'sinatra'
 require 'csv'
 
 get '/' do
-   erb :construcao
+  erb :index
 end
 
 get '/dev' do
-  erb :index
+  erb :inscritos_pronto
 end
 
 get '/cronograma' do
