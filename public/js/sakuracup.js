@@ -16,7 +16,7 @@ var mostraSomenteInscritosFaixa = function(corDaFaixa) {
 }
 
 var desabilitaTodosFiltros = function() {
-  $('.filtro-por-faixa').find('img').removeClass('habilitado');
+  $('#filtro-faixas').find('img').removeClass('habilitado');
 }
 
 var filtrarPorFaixa = function(event) {
@@ -38,7 +38,7 @@ var filtrarPorFaixa = function(event) {
 }
 
 $(document).ready(function() {
-  $('.filtro-por-faixa').on('click', filtrarPorFaixa);
+  $('#filtro-faixas').on('click', 'a', filtrarPorFaixa);
 
   $('.sub-paineis').on('click', 'button', function() {
     $(this).closest('section').find('a')[0].click();

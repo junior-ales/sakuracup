@@ -5,10 +5,59 @@
       <h2>Lista de Inscritos</h2>
       <hr />
     </header>
-    <p> A lista de inscritos do Sakura Cup II será disponibilizada logo após o término do período de inscrições </p>
-    <!--<p>
-      Qualquer informação incorreta ou dados que estejam faltando, favor pedir para seu professor contactar a organização do evento
-      </p>-->
+
+    <div id="filtro-faixas">
+      <p>Filtrar</p>
+      <a href=#><img data-faixa="branca" src="/img/faixas/faixa-branca.png" alt="Faixa Branca" /></a>
+      <a href=#><img data-faixa="amarela" src="/img/faixas/faixa-amarela.png" alt="Faixa Amarela" /></a>
+      <a href=#><img data-faixa="laranja" src="/img/faixas/faixa-laranja.png" alt="Faixa Laranja" /></a>
+      <a href=#><img data-faixa="verde" src="/img/faixas/faixa-verde.png" alt="Faixa Verde" /></a>
+      <a href=#><img data-faixa="azul" src="/img/faixas/faixa-azul.png" alt="Faixa Azul" /></a>
+      <a href=#><img data-faixa="roxa" src="/img/faixas/faixa-roxa.png" alt="Faixa Roxa" /></a>
+      <a href=#><img data-faixa="marrom" src="/img/faixas/faixa-marrom.png" alt="Faixa Marron" /></a>
+      <a href=#><img data-faixa="preta" src="/img/faixas/faixa-preta.png" alt="Faixa Preta" /></a>
+      <a href=#><img class="habilitado" data-faixa="todas" src="/img/faixas/todas.png" alt="Todas Faixas" /></a>
+    </div>
+
+    <table id="tabela-inscritos" class="table table-bordered tabela">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Classe</th>
+          <th>Peso</th>
+          <th>Faixa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% counter, num_erros = 0, 0 %>
+        <% erros = "" %>
+        <% CSV.foreach("inscritos.csv", encoding: "UTF-8") do |row| %>
+          <% linha =  @helper.nova_linha(row.join(";")) %>
+          <% if linha.start_with?("ERRO:") %> 
+            <% erros << "#{$.}:#{linha} \n" %>
+            <% num_erros += 1 %>
+          <% end %>
+          <% counter += 1%>
+          <%= linha %>
+        <% end %>
+      </tbody>
+    </table>
+
+    <% if ENV['RACK_ENV'] == "development" %>
+      <%= puts "Erros:\n#{erros}" %>
+      <%= puts "Total de linhas: #{counter}" %>
+      <%= puts "Total de erros: #{num_erros}" %>
+    <% end %>
+
+
+    <br />
+  </section>
+  <section class="panel small-12 columns">
+    <header>
+      <h2>Importante</h2>
+      <hr />
+    </header>
+    <p> Qualquer informação incorreta ou dados que estejam faltando, favor pedir para seu professor contactar a organização do evento </p>
     <br />
   </section>
 </section>

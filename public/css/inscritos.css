@@ -1,0 +1,29 @@
+#filtro-faixas,
+#filtro-faixas p {
+  text-align: center;
+}
+
+#filtro-faixas a img {
+  margin-bottom: 25px;
+  height: 30px;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#filtro-faixas a img:hover {
+  margin-top: -15px;
+  transition: margin-top 0.3s;
+}
+
+#filtro-faixas a img.habilitado {
+  opacity:1;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#tabela-inscritos thead {
+  background-color: rgba(242, 242, 242, .8);
+}
+
+#tabela-inscritos tbody tr {
+  background-color: rgba(142, 142, 142, .4);
+}

@@ -1,4 +1,13 @@
 @media only screen and (max-width: 768px) {
+  table {
+    font-size: smaller;
+  }
+
+  #tabela-premiacao thead tr th,
+  #tabela-premiacao tbody tr td {
+    font-size: 16px;
+  }
+
   #logo-section,
   #cabecalho-grande {
     display: none;

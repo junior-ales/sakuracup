@@ -36,6 +36,13 @@ p {
   text-justify:inter-word;
 }
 
+table {
+  width: 100%;
+  font-size: 1.5em;
+  border: none;
+  background-color: rgba(242, 242, 242, 0);
+}
+
 #facebook-plugin {
   margin-top: 10px;
   margin-bottom: 10px;
