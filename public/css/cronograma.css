@@ -3,3 +3,11 @@
   margin-left: 20px;
   margin-right: 10px;
 }
+
+#horario-feminino {
+  margin-top: -35px;
+}
+
+#horario-feminino span {
+  visibility: hidden;
+}
