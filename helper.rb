@@ -8,6 +8,6 @@ class Helper
    peso = array_dados[2]
    faixa = array_dados[3]
 
-   "<tr class='faixa-#{faixa.downcase}'><td>#{nome}</td><td>#{categoria}</td><td>#{peso}</td><td>#{faixa}</td></tr>"
+   "<tr class='faixa-#{faixa.downcase}'><td>#{nome}</td><td>#{peso}</td><td>#{categoria}</td><td>#{faixa}</td></tr>"
   end
 end

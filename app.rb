@@ -5,10 +5,6 @@ get '/' do
   erb :index
 end
 
-get '/dev' do
-  erb :inscritos_pronto
-end
-
 get '/cronograma' do
   erb :cronograma
 end

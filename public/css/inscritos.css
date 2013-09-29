@@ -27,3 +27,7 @@
 #tabela-inscritos tbody tr {
   background-color: rgba(142, 142, 142, .4);
 }
+
+#tabela-inscritos tbody tr td {
+  text-transform: capitalize;
+}
