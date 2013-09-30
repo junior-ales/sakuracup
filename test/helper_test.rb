@@ -1,5 +1,4 @@
 require './helper'
-require 'test/unit'
 
 class HelperTest < Test::Unit::TestCase
   def test_contruir_uma_linha_na_tabela_de_inscritos
