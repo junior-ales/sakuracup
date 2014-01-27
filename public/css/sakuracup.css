@@ -188,6 +188,12 @@ footer section {
   min-height: 129px;
 }
 
+#aguarde {
+  margin-top: 77px;
+  min-height: 115px;
+  font-size: 3.5em;
+}
+
 #titulo-principal {
   font-size: 8em;
 }

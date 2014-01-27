@@ -6,3 +6,11 @@ ______________________________________________
 ### Desenvolvimento
 
 - Rodando os testes: `$ ruby test/test_suite.rb`
+
+### Tech Stack
+
+- Ruby 1.9.3;
+- Sinatra;
+- Foundation 4;
+- Snap-CI;
+- Heroku;
